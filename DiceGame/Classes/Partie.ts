@@ -1,27 +1,58 @@
-import Gobelet from "./Gobelet";
-import Joueur from "./Joueur";
+// import Gobelet from "./Gobelet";
+// import Joueur from "./Joueur";
 
-export default class Partie {
-    public nbTours: number;
+// export default class Partie extends Joueur {
+//     public nbTours: number;
 
-    constructor(nbTours: number) {
-        this.nbTours = nbTours;
-    }
+//     constructor(score: number, nom: string, nbTours: number) {
+//         super(score, nom)
+//         this.nbTours = nbTours;
+//     }
 
-    public initialiserPartie() { // : void
+//     /**
+//      * Intancier le nombre de dés nécéssaires
+//      */
+//     public preparerPartie() {
 
-    }
+//     }
 
-    public lancerPartie() { // : number
+//     public initialiserPartie() { // : void
 
-    }
+//     }
 
-    public afficherGagnant() { // : string
+    
+//     public lancerPartie() { // : number
 
-    }
+//     }
+
+//     /**
+//      * Lancer les dés de chaque joueur
+//      */
+//     public jouerTour() { 
+
+//     }
+
+//     /**
+//      * Calcul le score
+//      */
+//     public calculerScore() {
+
+//     }
+
+//     /**
+//      * Déterminer qui à gagné la manche
+//      */
+//     public definirVainqueur() { // : string
+
+//     }
+
+
+//     public afficherGagnant() { // : string
+
+//     }
 
 
 
 
 
-}
+// }
