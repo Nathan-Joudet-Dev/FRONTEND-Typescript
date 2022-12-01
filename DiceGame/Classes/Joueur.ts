@@ -15,16 +15,17 @@ export default class Joueur {
     /**
      * Le gobelet lance les dés
      * La valeur des dés est ensuite stockés dans score
+     * A chaque lancer de dé, le résultat sera stocké dans le score
      * @param gobelet 
      */
     public jouer(gobelet: Gobelet) {
         gobelet.lancer(); // Lancer les dés
         // Stocker le résultat des dés 
-        // this._score +=         
+        this._score = gobelet.lancer();
     }
 
     public afficherScore() { // : number
-
+        console.log(`le score total du gobelet est de ${this._score}`);
     }
 
 
